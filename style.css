@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #eef2f7;
+    padding: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 32px;
+    color: #1b3c59;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+form input {
+    padding: 12px 14px;
+    border: 1px solid #ccd6e0;
+    border-radius: 8px;
+    font-size: 15px;
+    flex: 1;
+    transition: 0.2s;
+}
+
+form input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 4px rgba(74,144,226,0.4);
+    outline: none;
+}
+
+button {
+    padding: 12px 25px;
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #357ac8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    background: #4a90e2;
+    color: #fff;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    font-size: 15px;
+}
+
+tbody tr:nth-child(even) {
+    background: #f4f7fb;
+}
+
+tbody tr:hover {
+    background: #e7f0fc;
+}
+
+a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.action-btns a {
+    margin-right: 12px;
+}
+
+.cancelar {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #777;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.cancelar:hover {
+    background: #555;
+}
